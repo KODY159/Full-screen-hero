@@ -1,0 +1,79 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* Browser reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set size of the font */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  line-height: 1.6;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1651585512741-ef461c0d4608?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.items {
+  padding: 0 30px;
+  text-align: center;
+}
+.items h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+.items h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  display: inline-block;
+  line-height: 1.5rem;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 16px 20px;
+  font-size: 1rem;
+  background-color: yellowgreen;
+  box-shadow: 5px 10px rgb(12, 141, 201);
+  transition: all 0.25s ease-in-out;
+}
+.btn:hover {
+  padding: 20px 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .items {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .items {
+    width: 65%;
+  }
+}
